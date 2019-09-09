@@ -24,7 +24,7 @@ h3 {
 
 .sectionHeader {
     background: #550D16;
-    border-bottom: 6px solid #000;
+    border-bottom: 1px solid #000;
     height: 60px;
     color: #fff;
     display: inline-block;
@@ -36,7 +36,8 @@ h3 {
     
 }
 .sectionArea {
-    padding: 80px 0px;
+    padding: 20px 0px;
+    padding-top: 60px;
 }
 
 .container {
@@ -232,15 +233,57 @@ footer p{
 }
 
 
+.aboutTop {
+    text-align: center;
+}
 
+.aboutUs {
+     padding: 10px 20px;
+     border: 1px solid #9e5a63;
+    
+}
+.aboutUs p {
+    font-size: 12px;
+    font-stretch: extra-expanded;
+      text-align: center;
+    line-height: inherit;
+    padding: 5px;
+   color: #fff;
+    font-weight: bolder;
+   
+}
 
+#aboutSlider {
+    height:800px;
+    background: url('../img/dev1.jpg') center center;
+    background-size: cover;
+    text-align: center;
+   
+    align-items: center;
+    justify-content: center;
+}
 
+#aboutCaption {
+    height: 750px;
+    width: 75%;
+    background: rgba(0,0,0,.7);
+   
+}
+.aboutArea{
+    width:%70;
+         padding-left: 180px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
 
-
-
-
-
-
+.aboutUs {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    color: #fff;
+}
 
 
 
