@@ -36,15 +36,16 @@ h3 {
     
 }
 .sectionArea {
-    padding: 20px 0px;
+    padding: 20px 0px; 
     padding-top: 60px;
 }
 
 .container {
     
-    width: 90%;
-    margin: 2px auto;
-    display:flex;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
 }
 .projectBody .container {
     justify-content:space-between;
@@ -180,12 +181,12 @@ footer {
     
 }
 .footerItems {
-    padding: 20px;
+    padding: 40px;
     
 }
 
 .footerItems img{
-    height: 50px;
+    height: 100px;
     opacity: .5;
     
 }
@@ -202,45 +203,53 @@ footer .footerItems i {
     color: #95a5a6;
    line-height:50px;
     transition: .3s ease
+flex-wrap: wrap;
 }
 
 
 footer .footerItems i:hover {
     color: #fff;
+    flex-wrap: wrap;
 }
 
 footer p{
     color: #95a5a6;
     line-height: 20px;
+    flex-wrap: wrap;
 }
 .footerLinks a{
     text-decoration: none;
     color: #95a5a6;
     letter-spacing: 2px;
     transition: .3 ease;
-    
+    flex-wrap: wrap;
 }
 
 .footerLinks a:hover {
     color: #fff;
     text-decoration: underline;
+    flex-wrap: wrap;
 }
 
 .socialLinks li{
     display: inline-block;
     width: 50px;
     height: 50px;
+    flex-wrap: wrap;
+    
 }
 
 
 .aboutTop {
     text-align: center;
+    flex-wrap: wrap;
+    
 }
 
 .aboutUs {
      padding: 10px 20px;
-     border: 1px solid #9e5a63;
-    
+     border: 20px solid #9e5a63;
+    flex-wrap: wrap;
 }
 .aboutUs p {
     font-size: 12px;
@@ -250,11 +259,12 @@ footer p{
     padding: 5px;
    color: #fff;
     font-weight: bolder;
+    flex-wrap: wrap;
    
 }
 
 #aboutSlider {
-    height:800px;
+    height: %75;
     background: url('../img/dev1.jpg') center center;
     background-size: cover;
     text-align: center;
@@ -264,16 +274,17 @@ footer p{
 }
 
 #aboutCaption {
-    height: 750px;
-    width: 75%;
+    height: 80%;
+    width: 80%;
     background: rgba(0,0,0,.7);
-   
+   flex-wrap: wrap;
 }
 .aboutArea{
-    width:%70;
-         padding-left: 180px;
-    padding-top: 20px;
-    padding-right: 10px;
+    width: 800px;
+         padding-left: 60px;
+    padding-top: %20;
+    padding-right: %20;
+flex-wrap: wrap;
 }
 
 .aboutUs {
@@ -283,6 +294,7 @@ footer p{
     justify-content: center;
     width: auto;
     color: #fff;
+flex-wrap: wrap;
 }
 
 
